@@ -69,11 +69,11 @@ section .row img {
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #0000ff;
+  background-color: #2626a8;
 }
 
 .btn-secondary {
-  background-color: #2a70e0;
+  background-color: #618bce;
   color: #ffffff;
   margin: 0 0 30px;
 }
