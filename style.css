@@ -20,12 +20,9 @@ h1 {
 }
 
 nav {
-  display: flex;
-  justify-content: flex-end;
   position: fixed;
   top: 0px;
   left: 0px;
-
 }
 
 a {
@@ -36,7 +33,7 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1543858393-d5307eb2cdc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-image: url(https://images.unsplash.com/photo-1543858393-d5307eb2cdc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
   background-size: cover;
   color: #ffffff;
   height: 400px;
@@ -46,7 +43,7 @@ a {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .jumbotron h3 {
@@ -74,6 +71,7 @@ section .row img {
 .btn.btn-primary:hover {
   color: #ffffff;
   background-color: #2626a8;
+  transform: scale(1.1);
 }
 
 .btn-secondary {
