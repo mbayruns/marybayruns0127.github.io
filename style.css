@@ -22,6 +22,10 @@ h1 {
 nav {
   display: flex;
   justify-content: flex-end;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
 }
 
 a {
@@ -76,6 +80,11 @@ section .row img {
   background-color: #618bce;
   color: #ffffff;
   margin: 0 0 30px;
+}
+
+.btn.btn-primary:active {
+  position: relative;
+    top: 10px
 }
 
 .portrait {
